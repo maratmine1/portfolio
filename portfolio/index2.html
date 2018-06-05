@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link type="text/css" href="materialize/css/materialize.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<style>
+		* {
+			margin: 0;
+		}
+
+	</style>
+</head>
+
+<body>
+	<nav>
+		<div class="nav-wrapper  green lighten-1">
+			<a href="index.html" class="brand-logo">
+				<p class="flow-text asd">Портфолио </p>
+			</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+
+				<li><a href="index2.html" class="white-text">Награды<i class="material-icons right">person</i></a></li>
+				<li><a href="index1.html">О себе<i class="material-icons right">dashboard</i></a></li>
+
+			</ul>
+			<ul class="side-nav green lighten-1" id="mobile-demo">
+
+				<li><a href="index2.html" class="white-text">Достижения<i class="material-icons right">person</i></a></li>
+				<li><a href="index1.html" class="white-text">О себе<i class="material-icons right">dashboard</i></a></li>
+
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="carousel">
+				<a class="carousel-item" href="#two!"><img class="materialboxed" width="250" src="award.png"></a>
+				<a class="carousel-item" href="#three!"><img class="materialboxed" width="250" src="award2.png"></a>
+				<a class="carousel-item" href="#four!"><img class="materialboxed" width="250" src="award3.png"></a>
+				<a class="carousel-item" href="#five!"><img class="materialboxed" width="250" src="award4.png"></a>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="kf">
+
+	</div>
+	<footer class="page-footer green lighten-1">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Мои контакты</h5>
+					<p class="grey-text text-lighten-4">Мой номер телефона 89241677656. Моя почта maratmine6301@gmail.com</p>
+				</div>
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Ссылки на соц сети</h5>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="https://vk.com/gavno87">Vk</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				© 2018 Copyright Text
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".button-collapse").sideNav();
+			$('.carousel').carousel();
+
+		});
+
+	</script>
+</body>
+
+</html>
